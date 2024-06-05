@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #003459, #00111c);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #007ea7;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.1);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s, font-size 0.2s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #003459;
+    font-size: 17.5px;
+    font-weight: 500;
+    text-shadow: none;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.download-btn:active {
+    background-color: #004494;
+    transform: scale(1);
+}
+
+
+.left {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #003459;
+    text-shadow: 2px 0px 4px rgba(255, 255, 255, 0.5);
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.firstSection>div {
+    width: 45%;
+}
+
+.firstSection div {
+    font-size: 1.75rem;
+}
+
+.leftSection {
+    margin-left: 100px;
+}
+
+.leftSection .intro {
+    font-size: 4rem;
+}
+
+.leftSection .pro {
+    font-size: 2.55rem;
+}
+
+.rightSection img {
+    width: 100%;
+    margin-top: 65px;
+}
+
+.name {
+    color: #00a8e8;
+    font-weight: 500;
+}
+
+#profession {
+    color: #00a8e8;
+    border-right: 2px solid #fff;
+    animation: blink 0.7s step-end infinite;
+}
+
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: #fff; }
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #00a6e87d;
+    margin-inline: 25px;
+}
+
+.firstSectionHR {
+    margin-top: 100px;
+}
+
+.secondSectionHR {
+    margin-top: 30px;
+}
+
+.thirdSectionHR {
+    margin-top: 70px;
+}
+
+
+.abo {
+    font-weight: 500;
+    margin-top: 35px;
+    margin-right: 45px;
+    margin-bottom: 0px;
+    margin-left: 125px;
+    font-size: 30px;
+}
+
+.secondSection .desSection {
+    font-weight: 300;
+    font-size: 17.5px;
+    margin-top: 90px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+}
+
+.dis {
+    margin-bottom: 50px;
+}
+
+.edu {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 17px;
+}
+
+.stu {
+    margin-bottom: 10px;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 105px;
+    color: #00a8e8;
+}
+
+#ssc .board {
+    margin-left: 30px;
+}
+
+#ssc .score {
+    margin-left: 105px;
+}
+
+#bsc .score {
+    margin-left: 52px;
+}
+
+.board {
+    margin-left: 25px;
+}
+
+.secondSection .imgSection {
+    margin-left: 135px;
+}
+
+.imgSection img {
+    width: 500px;
+}
+
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ski {
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.thirdSection .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdSection div {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background: rgba(0, 0, 0, 0.25);
+}
+.thirdSection p {
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.thirdSection div img {
+    max-width: 65%;
+    max-height: 65%;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.proj {
+    font-weight: 500;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fourthSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fourthSection a .card {
+    width: 280px;
+    height: 470px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0, 36px;
+    margin: 0 50px;
+    perspective: 2500px;
+    cursor: pointer;
+}
+
+.fourthSection a .card .cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fourthSection a .card .wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.fourthSection a .card:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+.fourthSection a .card .wrapper::before,
+.fourthSection a .card .wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+}
+
+.fourthSection a .card .wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(to top, transparent 46%, rgba(12, 13, 19, 0.5) 68%, rgba(12, 13, 19) 97%);
+}
+
+.fourthSection a .card .wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(to bottom, transparent 46%, rgba(12, 13, 19, 0.5) 68%, rgba(12, 13, 19) 97%);
+}
+
+.fourthSection a .card:hover .wrapper::before, 
+.fourthSection a .card:hover .wrapper::after {
+    opacity: 1;
+}
+
+.fourthSection a .card .wrapper::after {
+    height: 120px;
+}
+
+.fourthSection a .card .logo {
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.fourthSection a .card:hover .logo {
+    transform: translate3d(0%, -50px, 100px);
+}
+
+.fourthSection a .card:hover .cover-image {
+    opacity: 0.3;
+}
+
+.fourthSection a .character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+    left: -15px;
+}
+
+.fourthSection a .card:hover .character {
+    opacity: 1;
+    transform: translate3d(5%, -10%, 0px);
+}
+
+.lastSection {
+    width: 100%;
+    height: 250px;
+    background-color: #00111c;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lastSection .nameport {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.lastSection .social a div img{
+    align-items: center;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.lastSection .social a div {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+
+.lastSection .nav_op div a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    transition: color 0.2s;
+}
+
+.lastSection .social div:hover {
+    color: #007ea7;
+}
+
+.lastSection .nav_op div a:hover {
+    color: #007ea7;
+    text-decoration: none;
+}
+
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="number"] {
+    display: block;
+    width: 275px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button[type="submit"] {
+    display: block;
+    width: 275px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
