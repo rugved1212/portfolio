@@ -388,10 +388,16 @@ hr {
 }
 
 .lastSection .nameport {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     justify-content: center;
     text-align: center;
+}
+
+.lastSection .nameport .email {
+    font-size: 15px;
+    color: #007bff;
+    font-weight: normal;
 }
 
 .lastSection .social a div img{
